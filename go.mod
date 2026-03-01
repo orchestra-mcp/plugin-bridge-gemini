@@ -4,8 +4,8 @@ go 1.23
 
 require (
 	github.com/google/generative-ai-go v0.20.1
-	github.com/orchestra-mcp/gen-go v0.1.1
-	github.com/orchestra-mcp/sdk-go v0.1.1
+	github.com/orchestra-mcp/gen-go v0.1.2
+	github.com/orchestra-mcp/sdk-go v0.1.2
 	google.golang.org/api v0.186.0
 	google.golang.org/protobuf v1.36.11
 )
