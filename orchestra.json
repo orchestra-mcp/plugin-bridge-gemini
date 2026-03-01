@@ -1,0 +1,24 @@
+{
+    "name": "orchestra-mcp/plugin-bridge-gemini",
+    "description": "Gemini AI bridge plugin for Orchestra MCP.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-bridge-gemini/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-bridge-gemini"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "bridge-gemini",
+    "extra": {
+        "plugin-id": "bridge.gemini",
+        "provides": ["tools"],
+        "provides_ai": ["gemini"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
