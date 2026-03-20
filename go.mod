@@ -4,8 +4,8 @@ go 1.25.0
 
 require (
 	github.com/google/generative-ai-go v0.20.1
-	github.com/orchestra-mcp/gen-go v1.0.4
-	github.com/orchestra-mcp/sdk-go v1.0.4
+	github.com/orchestra-mcp/gen-go v1.0.5
+	github.com/orchestra-mcp/sdk-go v1.0.5
 	google.golang.org/api v0.186.0
 	google.golang.org/protobuf v1.36.11
 )
@@ -30,7 +30,6 @@ require (
 	github.com/googleapis/gax-go/v2 v2.12.5 // indirect
 	github.com/onsi/ginkgo/v2 v2.9.5 // indirect
 	github.com/quic-go/quic-go v0.50.0 // indirect
-	github.com/stretchr/testify v1.10.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.51.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.51.0 // indirect
